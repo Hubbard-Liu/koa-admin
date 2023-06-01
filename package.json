@@ -2,7 +2,7 @@
   "name": "koa-admin",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/main.js"
@@ -13,7 +13,9 @@
     "@koa/router": "^12.0.0",
     "dotenv": "^16.0.3",
     "koa": "^2.14.2",
-    "module-alias": "^2.2.2"
+    "koa-bodyparser": "^4.4.0",
+    "module-alias": "^2.2.2",
+    "mysql2": "^3.3.3"
   },
   "devDependencies": {
     "eslint": "^8.41.0",
